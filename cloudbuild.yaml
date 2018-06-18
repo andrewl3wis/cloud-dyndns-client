@@ -24,5 +24,5 @@ steps:
     'GOOS=linux'
   ]
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['build', '--tag=asia.gcr.io/$PROJECT_ID/cloud-dyndns-client:$TAG_NAME', '.']
-images: ['asia.gcr.io/$PROJECT_ID/cloud-dyndns-client:$TAG_NAME']
+  args: ['build', '--tag=gcr.io/$PROJECT_ID/cloud-dyndns-client:$TAG_NAME', '.']
+images: ['gcr.io/$PROJECT_ID/cloud-dyndns-client:$TAG_NAME']
